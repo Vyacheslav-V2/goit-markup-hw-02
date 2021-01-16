@@ -1,0 +1,285 @@
+/*----------------------------------------------Studio------------------*/
+
+.body {
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*BUTTON*/
+.hero-link.button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.filter-botton {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
+.filter-botton:hover,
+.filter-botton:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/*---HEADER---*/
+
+.main-header {
+}
+
+.navigation {
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.navigation-list {
+}
+
+.navigation-list-item {
+}
+
+.navigation-list-item-link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.navigation-list-item-link:hover,
+.navigation-list-item-link:focus,
+.address-link:hover,
+.address-link:focus {
+  color: #2196f3;
+}
+
+.navigation-list-item-link.current {
+  color: #2196f3;
+}
+
+.contacts-list {
+}
+
+.contacts-list-item {
+}
+
+.contacts-list-item-link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.contacts-list-item-link:hover,
+.contacts-list-item-link:focus {
+  color: #2196f3;
+}
+/*---HEADER END---*/
+
+/*HERO*/
+.hero {
+}
+
+.hero-title {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36px;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /*color: #ffffff;*/
+}
+
+.hero-link {
+  font-family: Roboto;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.87px;
+
+  /*color: #ffffff;*/
+}
+/*HERO END*/
+
+/*ABOUT*/
+.about {
+}
+
+.about-title {
+}
+
+.about-list {
+}
+
+.about-list-item {
+}
+
+.about-list-item-title {
+  font-family: Roboto;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.about-list-item-discription {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*ABOUT END*/
+
+/*---WORKS---*/
+.works {
+}
+
+.works-title {
+  font-family: Roboto;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.works-list {
+}
+
+.works-list-item {
+}
+/*---WORKS END---*/
+
+/*---TEAM---*/
+.team {
+}
+
+.team-title {
+  font-family: Roboto;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-list {
+}
+
+.team-list-item {
+}
+
+.team-member {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-member-discriptin {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*---TEAM END---*/
+
+/*---FOOTER---*/
+
+.footer {
+}
+
+.address {
+}
+
+.address-discription {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.address-list {
+}
+
+.address-list-item {
+}
+
+.address-link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71pxpx;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/*---FOOTER END---*/
+
+/*----------------------------------------------STUDIO END------------------*/
+
+/*-----------------------------------PORTFOLIO--------------------*/
+
+/*--PROJECTS--*/
+
+.projects-list {
+}
+
+.projects-list-item {
+}
+
+.projects-list-title {
+  font-family: Roboto;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 2px;
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.projects-list-discription {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.87px;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
