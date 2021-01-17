@@ -8,6 +8,8 @@
 }
 
 .body {
+  font-family: Roboto;
+  letter-spacing: 0.03em;
 }
 
 ul {
@@ -20,7 +22,6 @@ a {
 
 /*BUTTON*/
 .hero-link.button {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87px;
@@ -32,10 +33,9 @@ a {
 }
 
 .filter-botton {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 62px;
+  line-height: 1.62px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primery-black);
@@ -59,8 +59,7 @@ a {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19px;
-  letter-spacing: 0.03em;
+  line-height: 31px;
   color: #000000;
 }
 
@@ -68,6 +67,13 @@ a {
   color: var(--primery-blue);
 }
 
+.logo.footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--primery-white);
+}
 .navigation-list {
 }
 
@@ -75,7 +81,6 @@ a {
 }
 
 .navigation-list-item-link {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
@@ -100,7 +105,6 @@ a {
 }
 
 .contacts-list-item-link {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
@@ -119,11 +123,9 @@ a {
 }
 
 .hero-title {
-  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36px;
-
+  line-height: 60px;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -131,7 +133,6 @@ a {
 }
 
 .hero-link {
-  font-family: Roboto;
   font-weight: 800;
   font-size: 16px;
   line-height: 1.87px;
@@ -155,20 +156,17 @@ a {
 }
 
 .about-list-item-title {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14px;
-  letter-spacing: 0.03em;
   color: var(--primery-black);
+  text-transform: uppercase;
 }
 
 .about-list-item-discription {
-  font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71px;
-  letter-spacing: 0.03em;
   color: var(--primery-grey);
 }
 /*ABOUT END*/
@@ -178,12 +176,10 @@ a {
 }
 
 .works-title {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16px;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primery-black);
 }
 
@@ -199,12 +195,10 @@ a {
 }
 
 .team-title {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17px;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primery-black);
 }
 
@@ -215,22 +209,18 @@ a {
 }
 
 .team-member {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19px;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primery-black);
 }
 
 .team-member-discriptin {
-  font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19px;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primery-grey);
 }
 /*---TEAM END---*/
@@ -245,11 +235,9 @@ a {
 }
 
 .address-discription {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.71px;
-  letter-spacing: 0.03em;
   color: var(--primery-white);
 }
 
@@ -260,11 +248,9 @@ a {
 }
 
 .address-link {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.71pxpx;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 /*---FOOTER END---*/
@@ -282,7 +268,6 @@ a {
 }
 
 .projects-list-title {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 18px;
   line-height: 2px;
@@ -292,11 +277,8 @@ a {
 }
 
 .projects-list-discription {
-  font-family: Roboto;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87px;
-  letter-spacing: 0.03em;
-
   color: var(--primery-grey);
 }
