@@ -64,7 +64,7 @@ a {
   padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62px;
+  line-height: 1.62em;
   text-align: center;
   letter-spacing: 0.03em;
   border-radius: 4px;
@@ -103,13 +103,6 @@ a {
   color: var(--primery-blue);
 }
 
-.logo.footer {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  color: var(--primery-white);
-}
 .navigation-list {
   margin: 0px;
 }
@@ -241,16 +234,16 @@ a {
 .works-list {
   display: flex;
   margin: 0px;
-  justify-content: space-evenly;
 }
 
 .works-list-item {
 }
+.works-list-item:not(:last-child) {
+  margin-right: 30px;
+}
 /*---WORKS END---*/
 
 /*---TEAM---*/
-.team {
-}
 
 .team-title {
   font-weight: 700;
@@ -258,12 +251,18 @@ a {
   line-height: 1.17em;
   text-align: center;
   color: var(--primery-black);
+  margin: 0px;
+  padding-bottom: 50px;
 }
 
 .team-list {
+  margin: 0px;
+  display: flex;
+  padding-bottom: 94px;
 }
 
-.team-list-item {
+.team-list-item:not(:last-child) {
+  padding-right: 30px;
 }
 
 .team-member {
@@ -284,9 +283,22 @@ a {
 /*---TEAM END---*/
 
 /*---FOOTER---*/
+.footer .container {
+}
 
 .footer {
+  display: flex;
   background-color: #2f303a;
+  padding-top: 60px;
+}
+
+.logo.footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--primery-white);
+  padding: 0px;
 }
 
 .address {
@@ -298,9 +310,13 @@ a {
   font-size: 14px;
   line-height: 1.71em;
   color: var(--primery-white);
+  margin: 0px;
+  margin-top: 20px;
 }
 
 .address-list {
+  margin-top: 10px;
+  padding: 0px;
 }
 
 .address-list-item {
@@ -319,11 +335,35 @@ a {
 /*-----------------------------------PORTFOLIO--------------------*/
 
 /*--PROJECTS--*/
+.page-title {
+  display: none;
+}
+.filter-botoms .container {
+}
 
+.filter-botoms {
+  display: flex;
+  justify-items: center;
+  margin: 0px;
+  margin-top: 94px;
+  padding-left: 295px;
+}
+.filter-botoms :not(:last-child) {
+  padding-right: 8px;
+}
+
+.projects-list .container {
+}
 .projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 34px;
+  padding: 0px;
 }
 
 .projects-list-item {
+  padding: 0px;
+  width: 370px;
 }
 
 .projects-list-title {
