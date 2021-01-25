@@ -18,7 +18,7 @@
     <header class="main-header">
         <div class="container">
             
-        <nav>
+        <nav class="navigation">
         <a href="#" class="logo"> <span class="logo-web">Web</span>Studio</a>
         
         <ul class="navigation-list">
@@ -28,7 +28,6 @@
         
     </ul>
     </nav>
-    
         <ul class="contacts-list">
              <li class="contacts-list-item"><a class="contacts-list-item-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
              <li class="contacts-list-item"><a class="contacts-list-item-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
@@ -40,13 +39,16 @@
         
         <!--hero-->
         <section class="hero">
-            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <a class="hero-link button" href="#">Заказать услугу</a>
+            <div class="container">
+                <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+                <button class="hero-button" type="button">Заказать услугу</button>
+            </div>
         </section>
 
         
         <section class="about">
-            <h2 class="about-title">Почему мы</h2>
+            <div class="container">
+            <h2 class="about-title" hidden>Почему мы</h2>
             <ul class="about-list">
             <li class="about-list-item"> <h3 class="about-list-item-title">Внимание к деталям</h3>
              <p class="about-list-item-discription">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -64,15 +66,18 @@
              <p class="about-list-item-discription">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
             </ul>
+            </div>
         </section>
 
         <!--чем мы занимаемся-->
         <section class="works">
             <h2 class="works-title">Чем мы занимаемся</h2>
         <ul class="works-list">
+            
             <li class="works-list-item"><img src="./img/планшет+клава.png" alt="Человек печатает на клавиатуре" width="370" height="294"></li>
             <li class="works-list-item"><img src="./img/ноут.png" alt="Человек работает с ноутбуком и смартфоном" width="370" height="294"></li>
             <li class="works-list-item"><img src="./img/планшет.png" alt="Человек работает с планшетом" width="370" height="294"></li>
+            
         </ul>
         </section>
 

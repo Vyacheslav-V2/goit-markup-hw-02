@@ -28,25 +28,33 @@ a {
 .container {
   width: 1230px;
   margin: 0 auto;
-  padding-left: 15;
-  padding-right: 15;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.main-header.container {
+
+.navigation-list,
+.about-list {
+  padding: 0px;
   display: flex;
+  align-items: center;
+}
+
+.contacts-list {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
 /*BUTTON*/
-.hero-link.button {
-  display: flex;
+.hero-button {
   min-width: 200px;
   padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87px;
+  line-height: 1.87em;
   color: var(--primery-white);
   background-color: var(--primery-blue);
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   border-radius: 4px;
 }
@@ -72,10 +80,13 @@ a {
 }
 /*---HEADER---*/
 
-.main-header {
+.main-header .container {
+  display: flex;
+  align-items: center;
 }
-
 .navigation {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -84,6 +95,8 @@ a {
   font-size: 26px;
   line-height: 31px;
   color: #000000;
+  margin-right: 93px;
+  padding: 24px 0px;
 }
 
 .logo-web {
@@ -101,7 +114,14 @@ a {
   margin: 0px;
 }
 
-.navigation-list-item {
+.navigation-list-item:not(:last-child),
+.contacts-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.navigation-list-item-link,
+.contacts-list-item-link {
+  padding: 32px 0;
 }
 
 .navigation-list-item-link {
@@ -122,10 +142,6 @@ a {
   color: var(--primery-blue);
 }
 
-.contacts-list {
-  margin: 0px;
-}
-
 .contacts-list-item {
 }
 
@@ -144,12 +160,15 @@ a {
 
 /*HERO*/
 .hero {
+  padding-top: 200px;
+  padding-bottom: 210px;
   background-color: #2f303a;
-  outline: red;
+  text-align: center;
 }
 
 .hero-title {
-  margin: 0px;
+  width: 700px;
+  margin: 0 auto 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -158,18 +177,13 @@ a {
   text-transform: uppercase;
   color: #ffffff;
 }
-
-.hero-link {
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 1.87px;
-
-  color: var(--primery-white);
-}
 /*HERO END*/
 
 /*ABOUT*/
-.about {
+.about,
+.works {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .about-title {
@@ -180,12 +194,22 @@ a {
 }
 
 .about-list-item {
+  width: calc((100% - 3 * 30px) / 4);
+}
+
+.about-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.about-list-item-title,
+.about-list-item-discription {
+  margin: 0 0;
 }
 
 .about-list-item-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14em;
   color: var(--primery-black);
   text-transform: uppercase;
 }
@@ -193,7 +217,7 @@ a {
 .about-list-item-discription {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71em;
   color: var(--primery-grey);
 }
 /*ABOUT END*/
@@ -205,12 +229,19 @@ a {
 .works-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16px;
+  line-height: 1.16em;
   text-align: center;
   color: var(--primery-black);
+  padding-bottom: 0px;
+  border: 0px;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 
 .works-list {
+  display: flex;
+  margin: 0px;
+  justify-content: space-evenly;
 }
 
 .works-list-item {
@@ -224,7 +255,7 @@ a {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17px;
+  line-height: 1.17em;
   text-align: center;
   color: var(--primery-black);
 }
@@ -238,7 +269,7 @@ a {
 .team-member {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19em;
   text-align: center;
   color: var(--primery-black);
 }
@@ -246,7 +277,7 @@ a {
 .team-member-discriptin {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19em;
   text-align: center;
   color: var(--primery-grey);
 }
@@ -265,7 +296,7 @@ a {
 .address-discription {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71em;
   color: var(--primery-white);
 }
 
@@ -278,7 +309,7 @@ a {
 .address-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.71pxpx;
+  line-height: 1.71em;
   color: rgba(255, 255, 255, 0.6);
 }
 /*---FOOTER END---*/
@@ -298,7 +329,7 @@ a {
 .projects-list-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 2px;
+  line-height: 2em;
   letter-spacing: 0.06em;
 
   color: var(--primery-black);
@@ -307,6 +338,6 @@ a {
 .projects-list-discription {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.87px;
+  line-height: 1.87em;
   color: var(--primery-grey);
 }
